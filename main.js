@@ -1,8 +1,3 @@
-<html>
-
-<canvas id="gameCanvas" width="800" height="600"></canvas>
-
-<script>
 var canvas;
 var canvasContext;
 var ballX = 50;
@@ -174,7 +169,3 @@ function colorRect(leftX,topY, width,height, drawColor) {
 	canvasContext.fillStyle = drawColor;
 	canvasContext.fillRect(leftX,topY, width,height);
 }
-
-</script>
-
-</html>
